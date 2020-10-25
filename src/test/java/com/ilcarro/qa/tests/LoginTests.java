@@ -19,7 +19,7 @@ public class LoginTests extends TestBase {
         //aa@bb109.com
         //aa@bb110.com
         //fillLoginForm
-        app.session().login("aa@bb109.com","1Aaaaaaaa");
+        app.session().login("zz@zz20.com","Aa1234567");
 
 
         //submit login

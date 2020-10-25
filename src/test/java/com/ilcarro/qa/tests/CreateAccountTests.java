@@ -18,10 +18,10 @@ public class CreateAccountTests extends TestBase {
     public void testSignUp() throws InterruptedException {
         app.header().clickSignUp();
         app.session().fillRegistrationForm(new User()
-                .setfName("AS")
-                .setlName("FV")
-                .setEmail("aa@bb218.com")
-                .setPassword("1Aaaaaaaa"));
+                .setfName("Zz")
+                .setlName("Zz")
+                .setEmail("zz@zz20.com")
+                .setPassword("Aa1234567"));
 
         //click submit button
         app.session().submitForm();

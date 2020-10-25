@@ -11,7 +11,7 @@ public class TestBase {
     @BeforeSuite
     public void setUp(){
         app.init();
-        // login("aa@bb109.com", "1Aaaaaaaa");
+
 
     }
 

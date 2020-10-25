@@ -1,7 +1,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="Regression" verbose="1" >
-    <test name="Session" >
+<suite name="UserTests" verbose="1" >
+    <test name="User" >
         <classes>
             <class name="com.ilcarro.qa.tests.CreateAccountTests" />
             <class name="com.ilcarro.qa.tests.LoginTests" />
@@ -9,10 +9,5 @@
         </classes>
     </test>
 
-    <test name="Car">
-        <classes>
-            <class name="com.ilcarro.qa.tests.AddCarTests"/>
 
-        </classes>
-    </test>
 </suite>

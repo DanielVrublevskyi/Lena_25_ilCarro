@@ -1,0 +1,4 @@
+31745 [main] INFO  com.ilcarro.qa.tests.TestBase - Start test testSignUp
+45710 [main] INFO  com.ilcarro.qa.tests.TestBase - Stop test testSignUp
+45718 [main] INFO  com.ilcarro.qa.tests.TestBase - Start test loginRegisteredUserPositiveTest
+70894 [main] INFO  com.ilcarro.qa.tests.TestBase - Stop test loginRegisteredUserPositiveTest

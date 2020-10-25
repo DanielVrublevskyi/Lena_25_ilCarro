@@ -12,7 +12,7 @@
     <test name="Car">
         <classes>
             <class name="com.ilcarro.qa.tests.AddCarTests"/>
-            2
+
         </classes>
     </test>
 </suite>

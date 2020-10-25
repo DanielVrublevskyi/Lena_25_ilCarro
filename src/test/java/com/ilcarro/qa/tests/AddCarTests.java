@@ -10,14 +10,16 @@ public class AddCarTests extends TestBase {
     public void ensurePreconditions() throws InterruptedException {
 
         if (!app.session().isUserLoggedIn()) {
-            app.session().login("aa@bb109.com", "1Aaaaaaaa");
+            app.session().login("zz@zz20.com", "Aa1234567");
         }
 
     }
 
     @Test
     public void testFormLetTheCarWork() throws InterruptedException {
-        app.header().click(By.cssSelector(".let-carwork-style_let_car__location__30BIh"));
+//        app.car().addCar();
+
+        app.header().click(By.cssSelector(".header__nav [href='/car']"));
 
         app.car().fillAddCarForm(new Car()
                 .setCountry("Israel")
@@ -43,4 +45,7 @@ public class AddCarTests extends TestBase {
         app.car().submitForm();
     }
 
+//    public void addCar(){
+//        click(By.cssSelector(".header__nav [href='/car']"));
+//    }
 }

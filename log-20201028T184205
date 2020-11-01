@@ -1,0 +1,12 @@
+18:42:15.909 [main] INFO  com.ilcarro.qa.tests.TestBase - Start test testSignUpFromDataProvider with data: [qq, ww, ww+2@gmail.com, Aa1234567]
+18:42:19.767 [main] INFO  com.ilcarro.qa.tests.TestBase - Login form present. Actual result: trueexpected result is: true
+18:42:19.772 [main] INFO  com.ilcarro.qa.tests.TestBase - Stop test testSignUpFromDataProvider
+18:42:19.781 [main] INFO  com.ilcarro.qa.tests.TestBase - ===============================================================================================
+18:42:19.785 [main] INFO  com.ilcarro.qa.tests.TestBase - Start test testSignUpFromDataProvider with data: [ee, rr, rr+2@gmail.com, Aa1234567]
+18:42:24.268 [main] INFO  com.ilcarro.qa.tests.TestBase - Login form present. Actual result: trueexpected result is: true
+18:42:24.276 [main] INFO  com.ilcarro.qa.tests.TestBase - Stop test testSignUpFromDataProvider
+18:42:24.276 [main] INFO  com.ilcarro.qa.tests.TestBase - ===============================================================================================
+18:42:24.276 [main] INFO  com.ilcarro.qa.tests.TestBase - Start test testSignUpFromDataProvider with data: [tt, yy, yy+2@gmail.com, Aa1234567]
+18:42:28.900 [main] INFO  com.ilcarro.qa.tests.TestBase - Login form present. Actual result: trueexpected result is: true
+18:42:28.905 [main] INFO  com.ilcarro.qa.tests.TestBase - Stop test testSignUpFromDataProvider
+18:42:28.905 [main] INFO  com.ilcarro.qa.tests.TestBase - ===============================================================================================

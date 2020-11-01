@@ -1,0 +1,16 @@
+19:29:50.487 [main] INFO  com.ilcarro.qa.tests.TestBase - Start test testSignUpFromCSVDataProvider with data: [com.ilcarro.qa.model.User@181e731e]
+19:29:55.232 [main] INFO  com.ilcarro.qa.tests.TestBase - Login form present. Actual result: true, expected result is: true
+19:29:55.289 [main] INFO  com.ilcarro.qa.tests.TestBase - Stop test testSignUpFromCSVDataProvider
+19:29:55.289 [main] INFO  com.ilcarro.qa.tests.TestBase - ===============================================================================================
+19:29:55.289 [main] INFO  com.ilcarro.qa.tests.TestBase - Start test testSignUpFromCSVDataProvider with data: [com.ilcarro.qa.model.User@5d9b7a8a]
+19:29:59.644 [main] INFO  com.ilcarro.qa.tests.TestBase - Login form present. Actual result: true, expected result is: true
+19:29:59.669 [main] INFO  com.ilcarro.qa.tests.TestBase - Stop test testSignUpFromCSVDataProvider
+19:29:59.669 [main] INFO  com.ilcarro.qa.tests.TestBase - ===============================================================================================
+19:29:59.674 [main] INFO  com.ilcarro.qa.tests.TestBase - Start test testSignUpFromCSVDataProvider with data: [com.ilcarro.qa.model.User@4a891c97]
+19:30:04.130 [main] INFO  com.ilcarro.qa.tests.TestBase - Login form present. Actual result: true, expected result is: true
+19:30:04.146 [main] INFO  com.ilcarro.qa.tests.TestBase - Stop test testSignUpFromCSVDataProvider
+19:30:04.146 [main] INFO  com.ilcarro.qa.tests.TestBase - ===============================================================================================
+19:30:04.146 [main] INFO  com.ilcarro.qa.tests.TestBase - Start test testSignUpFromCSVDataProvider with data: [com.ilcarro.qa.model.User@2c1b9e4b]
+19:30:08.153 [main] INFO  com.ilcarro.qa.tests.TestBase - Login form present. Actual result: true, expected result is: true
+19:30:08.169 [main] INFO  com.ilcarro.qa.tests.TestBase - Stop test testSignUpFromCSVDataProvider
+19:30:08.169 [main] INFO  com.ilcarro.qa.tests.TestBase - ===============================================================================================

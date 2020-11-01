@@ -48,4 +48,15 @@ public class AddCarTests extends TestBase {
 //    public void addCar(){
 //        click(By.cssSelector(".header__nav [href='/car']"));
 //    }
+
+
+    @Test (dataProvider = "validCarFromCSV", dataProviderClass = DataProviders.class)
+    public void testFormLetTheCarWorkFromCSV(Car car) throws InterruptedException {
+//        app.car().addCar();
+
+        app.header().click(By.cssSelector(".header__nav [href='/car']"));
+
+        app.car().fillAddCarForm(car);
+        app.car().submitForm();
+    }
 }

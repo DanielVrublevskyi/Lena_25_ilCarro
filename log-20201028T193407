@@ -1,0 +1,16 @@
+19:34:20.333 [main] INFO  com.ilcarro.qa.tests.TestBase - Start test testSignUpFromCSVDataProvider with data: [User{fName='tt', lName='tt', email='tt+7@gmail.com', password='Aa1234567'}]
+19:34:23.971 [main] INFO  com.ilcarro.qa.tests.TestBase - Login form present. Actual result: true, expected result is: true
+19:34:23.987 [main] INFO  com.ilcarro.qa.tests.TestBase - Stop test testSignUpFromCSVDataProvider
+19:34:23.987 [main] INFO  com.ilcarro.qa.tests.TestBase - ===============================================================================================
+19:34:23.987 [main] INFO  com.ilcarro.qa.tests.TestBase - Start test testSignUpFromCSVDataProvider with data: [User{fName='rr', lName='tt', email='tt+8@gmail.com', password='Aa1234567'}]
+19:34:27.606 [main] INFO  com.ilcarro.qa.tests.TestBase - Login form present. Actual result: true, expected result is: true
+19:34:27.626 [main] INFO  com.ilcarro.qa.tests.TestBase - Stop test testSignUpFromCSVDataProvider
+19:34:27.626 [main] INFO  com.ilcarro.qa.tests.TestBase - ===============================================================================================
+19:34:27.626 [main] INFO  com.ilcarro.qa.tests.TestBase - Start test testSignUpFromCSVDataProvider with data: [User{fName='yy', lName='tt', email='tt+9@gmail.com', password='Aa1234567'}]
+19:34:32.112 [main] INFO  com.ilcarro.qa.tests.TestBase - Login form present. Actual result: true, expected result is: true
+19:34:32.144 [main] INFO  com.ilcarro.qa.tests.TestBase - Stop test testSignUpFromCSVDataProvider
+19:34:32.144 [main] INFO  com.ilcarro.qa.tests.TestBase - ===============================================================================================
+19:34:32.144 [main] INFO  com.ilcarro.qa.tests.TestBase - Start test testSignUpFromCSVDataProvider with data: [User{fName='uu', lName='tt', email='tt+10@gmail.com', password='Aa1234567'}]
+19:34:36.413 [main] INFO  com.ilcarro.qa.tests.TestBase - Login form present. Actual result: true, expected result is: true
+19:34:36.446 [main] INFO  com.ilcarro.qa.tests.TestBase - Stop test testSignUpFromCSVDataProvider
+19:34:36.446 [main] INFO  com.ilcarro.qa.tests.TestBase - ===============================================================================================

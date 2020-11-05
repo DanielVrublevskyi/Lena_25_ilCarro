@@ -50,7 +50,7 @@ public class AddCarTests extends TestBase {
 //    }
 
 
-    @Test (dataProvider = "validCarFromCSV", dataProviderClass = DataProviders.class)
+    @Test (enabled = false,dataProvider = "validCarFromCSV", dataProviderClass = DataProviders.class)
     public void testFormLetTheCarWorkFromCSV(Car car) throws InterruptedException {
 //        app.car().addCar();
 

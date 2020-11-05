@@ -65,7 +65,7 @@ public class CreateAccountTests extends TestBase {
 
 
 
-    @Test (dataProvider = "validUserFromCSV", dataProviderClass = DataProviders.class)
+    @Test (enabled = false,dataProvider = "validUserFromCSV", dataProviderClass = DataProviders.class)
 
     public void testSignUpFromCSVDataProvider(User user) throws InterruptedException {
         app.header().clickSignUp();

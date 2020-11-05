@@ -5,6 +5,7 @@ import org.openqa.selenium.remote.BrowserType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.ITestNGListener;
+import org.testng.ITestResult;
 import org.testng.annotations.*;
 
 import java.lang.reflect.Method;
@@ -24,9 +25,17 @@ public class TestBase implements ITestNGListener {
     public  void  startTest(Method m, Object[] p){
         logger.info("Start test "+ m.getName() + " with data: " + Arrays.asList(p));
     }
-    @AfterMethod
-    public  void  stopTest(Method m){
-        logger.info("Stop test " + m.getName());
+    @AfterMethod (alwaysRun = true)
+    public  void  stopTest(ITestResult result){
+
+        if (result.isSuccess()){
+            logger.info("Passed: Test method " + result.getMethod().getMethodName());
+        } else {
+            logger.error("Failed: Test method " + result.getMethod().getMethodName());
+            logger.info("Screenshot: " + app.session().takeScreenshot());
+        }
+
+        logger.info("Stop test ");
         logger.info("===============================================================================================");
     }
 

@@ -1,0 +1,4 @@
+18:41:22.447 [main] INFO  com.ilcarro.qa.tests.TestBase - Start test loginRegisteredUserPositiveTest with data: []
+18:41:58.045 [main] ERROR com.ilcarro.qa.tests.TestBase - Failed: Test method loginRegisteredUserPositiveTest
+18:41:58.045 [main] INFO  com.ilcarro.qa.tests.TestBase - Stop test 
+18:41:58.045 [main] INFO  com.ilcarro.qa.tests.TestBase - ===============================================================================================

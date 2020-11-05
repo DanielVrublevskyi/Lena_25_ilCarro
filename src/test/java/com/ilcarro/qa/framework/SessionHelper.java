@@ -29,6 +29,7 @@ public class SessionHelper extends HelperBase {
     public void login(String email, String password) throws InterruptedException {
         clickLoginTabOnHeader();
         fillLoginForm(new User().setEmail(email).setPassword(password));
+       Thread.sleep(2000);
         submitForm();
         Thread.sleep(2000);
     }

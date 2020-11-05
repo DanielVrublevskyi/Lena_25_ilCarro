@@ -1,4 +1,0 @@
-18:33:44.644 [main] INFO  com.ilcarro.qa.tests.TestBase - Start test testSignUpFromDataProvider with data: [fName, lName, lastName@gmail+1.com, Aa1234567]
-18:33:55.201 [main] INFO  com.ilcarro.qa.tests.TestBase - Stop test testSignUpFromDataProvider
-18:33:55.201 [main] INFO  com.ilcarro.qa.tests.TestBase - ===============================================================================================
-18:33:55.201 [main] INFO  com.ilcarro.qa.tests.TestBase - Start test testSignUpFromDataProvider with data: [qq, ww, ww@gmail+1.com, Aa1234567]

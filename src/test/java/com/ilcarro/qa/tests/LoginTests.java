@@ -1,5 +1,6 @@
 package com.ilcarro.qa.tests;
 
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -16,16 +17,11 @@ public class LoginTests extends TestBase {
 
     @Test
     public void loginRegisteredUserPositiveTest() throws InterruptedException {
-        //aa@bb109.com
-        //aa@bb110.com
-        //fillLoginForm
+
         app.session().login("zz@zz20.com","Aa1234567");
+        Assert.assertTrue(app.session().isUserLoggedIn());
 
 
-
-
-
-        //Assert userLoggedIn
     }
 
 }

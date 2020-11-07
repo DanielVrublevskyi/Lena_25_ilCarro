@@ -3,7 +3,7 @@
 <suite name="Regression" verbose="1" >
     <test name="Session" >
         <classes>
-            <class name="com.ilcarro.qa.tests.CreateAccountTests" />
+<!--            <class name="com.ilcarro.qa.tests.CreateAccountTests" />-->
             <class name="com.ilcarro.qa.tests.LoginTests" />
 
         </classes>

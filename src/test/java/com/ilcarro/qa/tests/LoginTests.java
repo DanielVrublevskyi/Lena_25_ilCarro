@@ -18,6 +18,7 @@ public class LoginTests extends TestBase {
     @Test
     public void loginRegisteredUserPositiveTest() throws InterruptedException {
 
+
         app.session().login("zz@zz20.com","Aa1234567");
         Assert.assertTrue(app.session().isUserLoggedIn());
 

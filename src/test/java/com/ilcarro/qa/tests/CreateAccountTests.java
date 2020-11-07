@@ -43,7 +43,7 @@ public class CreateAccountTests extends TestBase {
     }
 
 
-    @Test (dataProvider = "validUser", dataProviderClass = DataProviders.class)
+    @Test (enabled = false,dataProvider = "validUser", dataProviderClass = DataProviders.class)
 
     public void testSignUpFromDataProvider(String fName, String lName, String email, String password) throws InterruptedException {
         app.header().clickSignUp();
